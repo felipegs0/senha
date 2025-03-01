@@ -95,17 +95,18 @@ main {
         height: 40vh;
     }
 
-    #mainName > input {
-        width: 220px;
+    main > #mainName > input {
+        width: 320px;
         height: 20px;
         outline: none;
     }
 
-    #mainNumber > input {
-        width: 200px;
+    main > #mainNumber > input {
+        width: 323px;
         height: 20px;
         outline: none;
     }
+
 }
 
 @media (min-width: 551px) and (max-width:775px) and (orientation: portrait) {
@@ -113,6 +114,13 @@ main {
         width: 70vw;
         height: 45vh;
     }
+
+    main > #mainName > input {
+        width: 200px;
+        height: 20px;
+        outline: none;
+    }
+
 }
 
 @media (min-width: 776px) and (max-width: 1200px) {
