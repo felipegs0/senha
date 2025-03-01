@@ -89,10 +89,10 @@ main {
     cursor: pointer;
 }
 
-@media (max-width: 550px) and (orientation: portrait) {
+@media (max-width: 750px) and (orientation: portrait) {
     main {
         width: 85vw;
-        height: 45vh;
+        height: 65vh;
     }
 
     #submit > input {
