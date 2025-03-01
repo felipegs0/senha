@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body {
+    background-color: #044040;
+}
+
+main {
+    background-color: white;
+    border-radius: 8px;
+    display: inline-block;
+    width: 40vw;
+    height: 40vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+#mainHeader {
+    background-color: #591C21;
+    height: 8vh;
+    font-family: serif;
+    color: #F2F2F2;
+    font-size: 30px;
+    text-align: center;
+    align-content: center;
+    border-radius: 8px 8px 0px 0px;
+}
+
+#mainName {
+    font-family: arial;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 22px;
+}
+
+#mainName > input {
+    width: 370px;
+    height: 20px;
+    outline: none;
+}
+
+#mainNumber {
+    font-family: arial;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 22px;
+}
+
+#mainNumber > input {
+    width: 350px;
+    height: 20px;
+    outline: none;
+}
+
+#mainOther {
+    font-family: arial;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 22px;
+}
+
+#mainOther > input {
+    width: 23px;
+    height: 20px;
+    outline: none;
+}
+
+#mainOther2 {
+    font-family: arial;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 22px;
+}
+
+#submit > input {
+    margin-top: 30px;
+    margin-left: 15px;
+    padding: 10px 25px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: #591C21;
+    cursor: pointer;
+}
+
+@media (max-width: 550px) and (orientation: portrait) {
+    main {
+        width: 85vw;
+        height: 45vh;
+    }
+
+    #submit > input {
+        
+    }
+}
+
+@media (min-width: 551px) and (max-width:775px) and (orientation: portrait) {
+    main {
+        width: 70vw;
+        height: 45vh;
+    }
+}
+
+@media (min-width: 776px) and (max-width: 1200px) {
+    main {
+        width: 55vw;
+        height: 45vh;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+    main {
+        width: 45vw;
+        height: 43vh;
+    }
+}

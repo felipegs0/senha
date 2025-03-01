@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Guardar Senha</title>
+</head>
+<body>
+    <main id="main">
+        <div id="mainHeader">
+            <p>Informações do Cartão</p>
+        </div>
+        <div id="mainName">
+            <label for="inm">Nome completo:</label>
+            <input type="text" maxlength="60" id="inm">
+        </div>
+        <div id="mainNumber">
+            <label for="inc">Número do cartão:</label> 
+            <input type="tel" id="inc" maxlength="16" placeholder="xxxx xxxx xxxx xxxx">
+        </div>
+        <div id="mainOther">
+            <label for="icvv">CVV:</label>
+            <input type="tel" id="icvv" placeholder="000" maxlength="3">
+        </div>
+        <div id="mainOther2">
+            <label for="idat">Data de validade:</label>
+            <input type="month" id="idat">
+        </div>
+        <div id="submit">
+            <input type="button" value="Enviar">
+        </div>
+        
+    </main>
+</body>
+</html>
