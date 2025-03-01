@@ -92,7 +92,7 @@ main {
 @media (max-width: 550px) and (orientation: portrait) {
     main {
         width: 85vw;
-        height: 60vh;
+        height: 50vh;
     }
 
     main > #mainName > input {
